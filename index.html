@@ -14,7 +14,7 @@
             <svg id="progressBarContainer" width="144" height="300">
                 <defs>
                     <pattern id="pattern1" x="0" y="0" width="12" height="12"  patternUnits="userSpaceOnUse">
-                        <circle cx="5" cy="5" r="5" stroke="0" fill="white" />
+                        <circle cx="5" cy="5" r="5" stroke="0" fill="#0e82a5" />
                     </pattern>
                 </defs>
 
@@ -27,6 +27,7 @@
             </div>
 
             <div id="content">
+                <label for="hours">Hours</label><br>
                 <select  name="hours" class="selector" id="hours">
                     <option value="0">0 hours</option>
                     <option value="1">1 hours</option>
@@ -52,8 +53,8 @@
                     <option value="21">21 hours</option>
                     <option value="22">22 hours</option>
                     <option value="23">23 hours</option>
-                </select>
-
+                </select><br>
+                <label for="minutes">Minutes</label><br>
                 <select class="selector" id="minutes" name="minutes">
                     <option value="0">0 minutes</option>
                     <option value="1">1 minutes</option>
@@ -115,8 +116,8 @@
                     <option value="57">57 minutes</option>
                     <option value="58">58 minutes</option>
                     <option value="59">59 minutes</option>
-                </select>
-
+                </select><br>
+                <label for="seconds">Seconds</label><br>
                 <select class="selector" id="seconds" name="seconds">
                     <option value="0">0 seconds</option>
                     <option value="1">1 seconds</option>
